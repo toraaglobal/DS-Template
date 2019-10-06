@@ -1,0 +1,12 @@
+{
+  "full_name": "Tajudeen Abdulazeez",
+  "email": "toabdula@syr.edu",
+  "suid": "696877373",
+  "school_name": "Syracuse University",
+  "github_username": "toraaglobal",
+  "project_name": "project_name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "description": "A short description of the project",
+  "python_interface": ["python3", "python"],
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
