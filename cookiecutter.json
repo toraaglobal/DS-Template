@@ -1,12 +1,16 @@
 {
   "full_name": "Tajudeen Abdulazeez",
   "email": "toabdula@syr.edu",
-  "suid": "696877373",
-  "school_name": "Syracuse University",
   "github_username": "toraaglobal",
   "project_name": "project_name",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "description": "A short description of the project",
-  "python_interface": ["python3", "python"],
+  "project_short_description": "A short description of the project",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.1.0",
+  "use_pytest": "n",
+  "use_pypi_deployment_with_travis": "y",
+  "add_pyup_badge": "n",
+  "command_line_interface": ["Click", "Argparse", "No command-line interface"],
+  "create_author_file": "y",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
 }
