@@ -26,7 +26,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/drivendata/cookiecutter-data-science
+    cookiecutter https://github.com/toraaglobal/DS-Template.git
 
 
 [![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
