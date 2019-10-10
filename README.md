@@ -47,25 +47,13 @@ The directory structure of your new project looks like this:
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-|-- database
-|   |---casandra       <- A docker image to run casandra 
-|   |--- hadoop        <- A docker image to run hadoop
-|   |-- kafka          <- A docker image to run kafka
-|   |---mongodb        <- A docker image to run mongodb
-|   |--- other         <- Some other useful docker images for databse
-|   |--- redis         <- A docker image to run redis
-|
-|
 ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│   |                       the creator's initials, and a short `-` delimited description, e.g.
-│   |                       `1.0-jqp-initial-data-exploration`.
-|   |
-|   |--- Dockerfile    <- Official anoconda distributor image
-|   |--- docker-compose.yml <- docker compose to start the anoconda image
+│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         `1.0-jqp-initial-data-exploration`.
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
